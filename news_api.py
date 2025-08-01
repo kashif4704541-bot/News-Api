@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 
 query = input("What type of news are you interested in today? ")
-api = "a0ebe079dc1e4c5997614a09ca1560ea"
+api = "Your_Api_key"
 
 # Use past 7 days as the date range
 from_date = (datetime.today() - timedelta(days=7)).strftime('%Y-%m-%d')
